@@ -1,3 +1,4 @@
+
 /**
  * dsh-region client bundle 入口。
  *
@@ -16,7 +17,7 @@ import { RegionSettingsCard, dispatchVisibilityChanged } from './settings-card.j
 export const name = 'dsh-region'
 
 /** 声明需要的 client 服务：slots（UI 注入核心）、settingsScope（设置页卡片）。 */
-export const inject = ['slots', 'settingsScope']
+export const inject = ['slots']
 
 /** 防重复：同一页面生命周期内只应用一次。 */
 let applied = false
